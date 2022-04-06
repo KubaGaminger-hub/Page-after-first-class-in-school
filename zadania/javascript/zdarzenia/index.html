@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/default.css">
+</head>
+<body>
+    <div class="glowny">
+        <header class="baner">
+            <h1>JAKUB WĘŻOWICZ</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="zadania.html">Zadania</a></li>
+                <li><a href="">Strony kolegów</a></li>
+                <li><a href="">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <header>
+                <h2>Notatka</h2>
+            </header>
+            <p>
+                Zdarzenie dodajemy do elementów HTML poprzez dwa sposoby: <br>
+                1. Podpięcie eventu w HTML na początku znaczniku np. <br>
+                onclick="myFunction()"<br>
+                2. Podpięcie eventu w pliku JavaScript poprzez wykorzystanie addEventListener np. <br>
+                przykladowyElement.addEventListener('click', () => {
+                    console.log('Przykładowy teskt')})
+            </p>
+                <h2>Przykładowe eventy</h2>
+            <button>CONSOLE LOG</button>
+            <button>Naciśnij dwukrotnie, aby przełączyć widoczność tekstu</button>
+            <p id="exampleText">Przykładowy tekst</p>
+            <button>Najedź, aby zmienić kolor tła</button>
+            <button>Najedź i zjedź z elementu</button>
+            <input id='inpChange' type="text" placeholder="Wpisz kolor na jaki chcesz zmienić tło">
+            <input id="login" type="password" placeholder="Napisz hasło">
+        </div>
+    </div>
+    <footer>
+        <div class="informations">
+            <div>
+                <h3>Przydatne linki</h3>
+                <ul>
+                    <li><a href="https://www.zsti.gliwice.pl/">ZSTI</a></li>
+                    <li><a href="https://www.w3schools.com/">W3schools</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Kontakt</h3>
+                <ul>
+                    <li><a href="formularz.html">Formularz</a></li>
+                    <li><a href="mailto:kuba.wezowicz@gmail.com">Napisz do mnie</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p>Jakub Wężowicz © wszelkie prawa zatrzeżone</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

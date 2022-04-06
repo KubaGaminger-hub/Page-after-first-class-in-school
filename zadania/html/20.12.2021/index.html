@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularze</title>
+    <meta name="keywords" content="formularz,pola formularza">
+    <meta name="description" content="Ćwiczenia na formularzach">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="form.html" method="post">
+
+    <fieldset>
+
+    <legend>DANE OSOBOWE</legend>
+
+    <label>Podaj swoje imię: <input type="text" placeholder="Podaj imię" autofocus="autofocus" autocomplete="autocomplete"></label>
+        <br>
+        <label>Podaj swoje nazwisko: <input type="text" placeholder="Podaj nazwisko" autofocus="autofocus" autocomplete="autocomplete"></label>
+        <br>
+    <label>Podaj swój wiek: <input placeholder="Wiek" type="number" min="5" max="130"></label>
+        <br>
+    <label>Podaj hasło: <input type="password"></label>
+        <br>
+        <label>Podaj numer telefonu: <input type="tel" placeholder="XXX-XXX-XXX"></label><br><br><hr>
+        <label>Podaj adres swojej strony: <input type="url" placeholder="example@gmail.com"></label><br><br>
+        <label>Podaj date urodzenia: <input type="date"></label><br><br>
+        <label>Podaj miesiąc urodzenia: <input type="month"></label><br><br>
+        <label>Podaj tydzień urodzenia: <input type="week"></label><br><br>
+        <label>Podaj godzine urodzenia: <input type="time"></label><br><br>
+        <label>Podaj swój ulubiony kolor: <input type="color"></label><br><br>
+        <label>Wyślij plik <input type="file" multiple="multiple"></label>
+
+    </fieldset>
+    <h4>Napisz coś ciekawego o sobie</h4>
+    <textarea cols="30" rows="15"></textarea><br>
+    
+    <input type="submit" value="WYŚLIJ">
+    <input type="reset" value="WYCZYŚĆ">
+</form>
+
+
+</body>
+</html>

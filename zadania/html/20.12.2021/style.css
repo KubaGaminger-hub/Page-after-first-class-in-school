@@ -1,0 +1,23 @@
+body {
+    background-color: darkslategrey;
+}
+
+input[type=text], input[type=number], input[type=password] {
+    width: 200px;
+    border-radius: 5px;
+}
+
+input[type=submit], input[type=reset] {
+    width: 75px;
+    background-color: springgreen;
+    border: 5px solid black;
+}
+
+input[type=reset] {
+    background-color: red;
+}
+
+input[type=reset]:hover, input[type=submit]:hover {
+cursor: pointer;
+}
+

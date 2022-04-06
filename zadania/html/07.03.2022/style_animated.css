@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: goldenrod;
+    height: 1000px;
+}
+a {
+    position: sticky;
+    top: 0px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#karo {
+    position: absolute;
+    transform: rotate(20deg);
+}
+
+#karo:hover {
+    cursor: pointer;
+    position: absolute;
+    transform: scale(1.1);
+    transition: 1.2s;
+    z-index: 1;
+}
+
+#serce {
+    position: absolute;
+    transform: rotate(40deg);
+}
+
+#serce:hover {
+    cursor: pointer;
+    position: absolute;
+    transform: scale(1.1);
+    transition: 1.2s;
+    z-index: 1;
+}
+
+#trefl {
+    position: absolute;
+    transform: rotate(60deg);
+}
+
+#trefl:hover {
+    cursor: pointer;
+    position: absolute;
+    transform: scale(1.1);
+    transition: 1.3s;
+    z-index: 1;
+}
+
+
+
+#pik:hover {
+    cursor: pointer;
+    position: absolute;
+    transform: scale(1.1);
+    transition: 1.3s;
+    z-index: 1;
+}
