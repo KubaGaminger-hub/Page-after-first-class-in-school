@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 :root {
-    --main_font: 'Merriweather Sans', sans-serif;
+    --main_font: 'Jost', sans-serif;
     --main_color: #383838;
     font-family: var(--main_font);
 }
