@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.oMnie {
+    font-size: large;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    color: white;
+    width: 40%;
+}
