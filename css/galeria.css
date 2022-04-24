@@ -1,0 +1,23 @@
+/*Galeria*/
+main {
+    color: white;
+}
+.galeria1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 200px;
+}
+
+
+#usun:hover #usunimg{
+    display: none;
+}
+
+#schowaj:hover #schowajimg{
+    visibility: hidden;
+}

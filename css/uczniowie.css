@@ -1,0 +1,15 @@
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
